@@ -23,7 +23,7 @@ age = 25
 print("I am", age, "years old.")
 
 # Exercise 7: 
-num1 = "10"
-num2 = "20"
+num1 = 10
+num2 = 20
 result = num1 + num2
 print(result)
