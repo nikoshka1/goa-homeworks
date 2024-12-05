@@ -5,8 +5,8 @@ vowels = ['a', 'e', 'i', 'o', 'u']
 num = 0
 
 for i in range(len(letters)):
-    if letters[i] in vowels:
-        num += 1
+        if letters[i] in vowels:
+            num += 1
 
 print(num)
 
@@ -25,11 +25,12 @@ for i in range(len(list)):
 
 print(list)
 
-for i in range(4 - 2, -1, -1):
-    print(' ' * i + '*' * (2 * (4 - i) - 1))
-for i in range(4):
-    print(' ' * i + '*' * (2 * (4 - i) - 1))
+symbol = "*"
+
+for i in range(n):
+    print(" " * i + symbol * 6)
 
 age = int(input("ჩაწერე შენი ასაკი: "))
-if age > 12:
+if age < 12:
     print("შენ არ ხარ 12 წლის")
+

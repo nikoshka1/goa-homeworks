@@ -1,0 +1,9 @@
+.btn-1 {
+    width: 100px;
+    height: 30px;
+    color: burlywood;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border: 1px solid burlywood;
+    cursor: not-allowed;
+}
