@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url(./assets/image\ copy\ 2.png);
+}

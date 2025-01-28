@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+table, th, td{
+    border: none;
+    border-spacing: 100px 20px;
+    border-collapse: separate;
+}
+
+tr:first-child:hover{
+    background-color: green;
+}

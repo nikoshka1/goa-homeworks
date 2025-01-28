@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(135deg,rgb(255, 35, 105), rgb(91, 51, 173));
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+table{
+    width: 900px;
+    margin-top: 200px;
+    background-color: rgb(37, 189, 167);
+    margin-left: auto;
+    margin-right: auto; 
+    border: none;    
+    border-collapse: collapse;
+    margin-top: 200px;
+}
+tr, td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center;
+    color: white; 
+    border: none;
+    border-bottom: 0.1px solid #ffffff;
+}
+
+tr:hover{
+    background-color: rgb(102, 212, 183);
+}
+
+tr:first-child{
+    font-size: 30px;
+}
