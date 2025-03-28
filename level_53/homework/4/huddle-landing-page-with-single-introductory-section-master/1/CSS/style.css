@@ -1,0 +1,36 @@
+p{
+    font-size: 14px;
+    font-weight: 400, 600, 700;
+}
+
+.green{
+    color: hsl(75, 94%, 57%);
+}
+.white{
+    color: hsl(0, 0%, 100%)
+}
+
+.grey_700{
+    background-color: hsl(0, 0%, 20%)
+}
+
+.grey_800{
+    background-color: hsl(0, 0%, 12%)
+}
+
+.grey_900{
+    background-color: hsl(0, 0%, 8%)
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.rounded {
+    width: 300px; 
+    height: 200px; 
+    border-radius: 20px; 
+}

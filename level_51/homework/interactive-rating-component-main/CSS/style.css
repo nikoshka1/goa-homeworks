@@ -1,0 +1,39 @@
+.White {
+    hsl(0, 0%, 100%)
+}
+
+.Light-Grey {
+    hsl(217, 12%, 63%)
+}
+
+.Dark-Blue {
+    hsl(213, 19%, 18%)
+}
+
+.Very-Dark-Blue {
+    hsl(216, 12%, 8%)
+}
+
+.Orange {
+    hsl(25, 97%, 53%)
+}
+
+.font-400 {
+    font-weight: ;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    
+}

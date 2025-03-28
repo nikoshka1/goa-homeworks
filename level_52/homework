@@ -1,0 +1,31 @@
+def multi_table(number):
+    result = ""
+    for i in range(1, 11):
+        result += str(i) + " * " + str(number) + " = " + str(i * number) + "\n"
+    return result.strip()
+
+def print_array(arr):
+    result = ""
+    for i in range(len(arr)):
+        result += str(arr[i])
+        if i < len(arr) - 1:
+            result += ","
+    return result
+
+def string_clean(s):
+    result = ""
+    for i in s:
+        if not i.isdigit():
+            result += i
+    return result
+
+def remove_consecutive_duplicates(s):
+    splied_words = s.split(" ")
+    result_arr = []
+    for i in range(len(splied_words)):
+        if (splied_words[i] != splied_words[i-1]) or (i == 0):
+            result_arr.append(splied_words[i])
+    return " ".join(result_arr)
+
+def between_extremes(numbers):
+    return max(numbers) - min(numbers)

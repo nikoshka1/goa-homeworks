@@ -1,0 +1,12 @@
+.space-around {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.square{
+    background-color: blue;
+    width: 11%;
+    height: 100px;
+    text-align: center;
+}
